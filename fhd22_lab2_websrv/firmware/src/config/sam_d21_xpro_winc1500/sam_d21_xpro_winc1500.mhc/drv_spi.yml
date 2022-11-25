@@ -122,7 +122,7 @@ children:
           - type: String
             attributes: {id: targetAttachmentID}
             children:
-            - {type: Value, value: spi}
+            - {type: Value, value: drv_spi_dependency}
       - type: DirectDependency
         attributes: {id: drv_spi_SPI_dependency}
         children:

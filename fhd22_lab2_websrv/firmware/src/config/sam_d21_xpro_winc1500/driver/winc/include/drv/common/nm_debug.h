@@ -44,10 +44,10 @@
 
 /**@{*/
 
-#define M2M_ERR(...) //WDRV_DBG_ERROR_PRINT(__VA_ARGS__)
-#define M2M_INFO(...) //WDRV_DBG_INFORM_PRINT(__VA_ARGS__)
-#define M2M_DBG(...) //WDRV_DBG_VERBOSE_PRINT(__VA_ARGS__)
-#define M2M_PRINT(...) //WDRV_DBG_VERBOSE_PRINT(__VA_ARGS__)
+#define M2M_ERR(...) WDRV_DBG_ERROR_PRINT(__VA_ARGS__)
+#define M2M_INFO(...) WDRV_DBG_INFORM_PRINT(__VA_ARGS__)
+#define M2M_DBG(...) WDRV_DBG_VERBOSE_PRINT(__VA_ARGS__)
+#define M2M_PRINT(...) WDRV_DBG_VERBOSE_PRINT(__VA_ARGS__)
 
 /**@}*/
 

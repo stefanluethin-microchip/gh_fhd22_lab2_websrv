@@ -40,12 +40,12 @@
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/driver/m2m_ssl.h</itemPath>
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/driver/ecc_types.h</itemPath>
                   </logicalFolder>
-                  <logicalFolder name="f4" displayName="socket" projectFiles="true">
+                  <logicalFolder name="f5" displayName="socket" projectFiles="true">
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/socket/m2m_socket_host_if.h</itemPath>
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/socket/socket.h</itemPath>
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/socket/netinet_in.h</itemPath>
                   </logicalFolder>
-                  <logicalFolder name="f5" displayName="spi_flash" projectFiles="true">
+                  <logicalFolder name="f4" displayName="spi_flash" projectFiles="true">
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/spi_flash/spi_flash.h</itemPath>
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/spi_flash/spi_flash_map.h</itemPath>
                     <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/include/drv/spi_flash/flexible_flash.h</itemPath>
@@ -279,6 +279,7 @@
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_d21_xpro_winc1500/harmony-manifest-success.yml</itemPath>
+      <itemPath>../src/config/sam_d21_xpro_winc1500/pin_configurations.csv</itemPath>
       <itemPath>wifi_tcp_server_in_softap_sam_d21_xpro_winc1500.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -329,12 +330,12 @@
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/driver/m2m_ota.c</itemPath>
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/driver/m2m_ssl.c</itemPath>
                 </logicalFolder>
-                <logicalFolder name="f3" displayName="socket" projectFiles="true">
+                <logicalFolder name="f4" displayName="socket" projectFiles="true">
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/socket/socket.c</itemPath>
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/socket/inet_ntop.c</itemPath>
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/socket/inet_addr.c</itemPath>
                 </logicalFolder>
-                <logicalFolder name="f4" displayName="spi_flash" projectFiles="true">
+                <logicalFolder name="f3" displayName="spi_flash" projectFiles="true">
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/spi_flash/spi_flash.c</itemPath>
                   <itemPath>../src/config/sam_d21_xpro_winc1500/driver/winc/drv/spi_flash/flexible_flash.c</itemPath>
                 </logicalFolder>
@@ -431,7 +432,6 @@
       <itemPath>../src/example.c</itemPath>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
-      <itemPath>../src/config/sam_d21_xpro_winc1500/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -447,7 +447,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.50</languageToolchainVersion>
+        <languageToolchainVersion>4.20</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -508,7 +508,6 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
@@ -565,7 +564,6 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -605,7 +603,6 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>

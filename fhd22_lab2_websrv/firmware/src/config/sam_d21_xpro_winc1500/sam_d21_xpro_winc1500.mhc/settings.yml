@@ -5,9 +5,9 @@ frameworkPath: ../../..
 processor: ATSAMD21J18A
 projectName: ''
 settings:
-  PackageFilter: bsp;core;core_apps_pic32mz_w1;crypto;cryptoauthlib;csp;dev_packs;net;quick_docs;usb;wireless_apps_pic32mzw1_wfi32e01;wireless_apps_winc1500;wireless_apps_winc3400;wireless_system_pic32mzw1_wfi32e01;wireless_wifi
+  PackageFilter: bsp;core;core_apps_pic32cm_mc00;core_old;crypto;cryptoauthlib;csp;csp_apps_pic32cm_mc00;csp_old;Devices;dev_packs;dev_packs_old;harmony-services;mc_apps_pic32cm_mc;mc_apps_pic32mk;mc_apps_sam_c2x;mc_apps_sam_d5x_e5x;mc_apps_sam_e7x_s7x_v7x;mc_apps_sam_rh707;mc_apps_sam_rh71;motor_control;net;quick_docs;usb;wireless_apps_winc1500;wireless_system_pic32mzw1_wfi32e01;wireless_wifi;x2c
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.4.116\samd21a\atdf\ATSAMD21J18A.atdf
+  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.6.144\samd21a\atdf\ATSAMD21J18A.atdf
