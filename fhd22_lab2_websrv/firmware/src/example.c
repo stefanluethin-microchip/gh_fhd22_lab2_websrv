@@ -68,17 +68,20 @@ static void APP_ExampleSocketEventCallback(SOCKET socket, uint8_t messageType, v
             tstrSocketAcceptMsg *pAcceptMessage = (tstrSocketAcceptMsg*)pMessage;
             if (NULL != pAcceptMessage)
             {
-                //-TODO-1: (start) add new socket instance, debug-print it and assign it
-                //char answer[] = "Hello, here is WINC1500 :-)\r\n";
-                //char s[20] = "";
-                //int newSock = ...
-                //SYS_CONSOLE_Print( ...);
-                //clientSocket = ...;
+                //-TODO-1: (start) add new socket instance, debug-print it and assign it  -> L1basic_telnet-0-1-Q
+                char answer[] = "Hello, here is WINC1500 :-)\r\n";
+                char s[20] = "";
+                int newSock = pAcceptMessage->sock;
+                SYS_CONSOLE_Print( appData.consoleHandle, "Connection from %s:%d %i\r\n",
+                                   inet_ntop(AF_INET, &pAcceptMessage->strAddr.sin_addr.s_addr, s, sizeof(s)), 
+                                   _ntohs(pAcceptMessage->strAddr.sin_port), 
+                                   newSock);
+                clientSocket = newSock;                 
                 //-TODO-1: (end)
 
                 //-TODO-2: (start) use new socket for send() and recv()
-                //send( ... );
-                //recv( ... );
+                send( clientSocket, answer, strlen(answer), 0 );
+                recv( clientSocket, &receivedChar, 1, 0 );
                 //-TODO-2: (end)
             }
             else
@@ -100,10 +103,19 @@ static void APP_ExampleSocketEventCallback(SOCKET socket, uint8_t messageType, v
                 //-TODO-3: (start) now handle '0,1,?' = this is the functionality of your first webserver
                 switch( pRecvMessage->pu8Buffer[0] )
                 {
-                    //...
+                    case '0': LED0_Set(); break;
+                    case '1': LED0_Clear(); break;                
+                    case '?': 
+                        if( SW0_Get() ) {
+                            send  ( clientSocket, "[RELEASED]", 10, 0 );
+                        } else {
+                            send  ( clientSocket, "[PRESSED]", 9, 0 );
+                        }
+                        break;
+                    default: ; // error, never get here
                 }
-                 // trigger next receiver, otherwise we will never again get further characters
-                //recv( ... ); 
+                // trigger next receiver, otherwise we will never again get further characters
+                recv( clientSocket, &receivedChar, 1, 0 ); 
                 //-TODO-3: (end)
             }
             else
