@@ -1,0 +1,198 @@
+<config configName="sam_d21_xpro_winc1500" projectName="wifi_tcp_server_in_softap_sam_d21_xpro_winc1500" configVersion="1.1" device="ATSAMD21J18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
+   <usedPackages class="java.util.ArrayList"/>
+   <usedClasses class="java.util.TreeMap">
+      <entry>
+         <string>appWincExampleConf</string>
+         <string>class com.microchip.mcc.harmony.HarmonyModule</string>
+      </entry>
+   </usedClasses>
+   <usedLibraries class="java.util.ArrayList">
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.2.0"/>
+   </usedLibraries>
+   <tokenMap class="java.util.TreeMap">
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="!@#harmonyAttachmentState"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot;/&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="#&amp;__MCC_Group_Parrent_id"/>
+         <value>__ROOTVIEW</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_AP_DHCP_SRV_ADDR"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_AP_DHCP_SRV_ADDR&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_AP_DHCP_SRV_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_AP_DHCP_SRV_ENABLE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_AP_DHCP_SRV_NETMASK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_AP_DHCP_SRV_NETMASK&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_AUTH_METHOD_AP"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_AUTH_METHOD_AP&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;appWincExampleConf&quot; value=&quot;WEP&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;Open&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_AUTH_METHOD_STA"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_AUTH_METHOD_STA&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_CHANNEL"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_CHANNEL&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;AP&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_SSID"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_SSID&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;WebserverSL&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_TCP_SOCK_BUF_SIZE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_TCP_SOCK_BUF_SIZE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;100&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_TCP_SOCK_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_TCP_SOCK_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_TCP_SOCK_PORT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_TCP_SOCK_PORT&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;80&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_WEP_KEY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_WEP_KEY&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="appWincExampleConf" name="APP_WIFI_WEP_KEY_IDX"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
+  &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_WEP_KEY_IDX&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/appWincExampleConf&gt;
+&lt;/appWincExampleConf&gt;
+</value>
+      </entry>
+   </tokenMap>
+   <generatedFileHashHistoryMap class="java.util.TreeMap"/>
+</config>

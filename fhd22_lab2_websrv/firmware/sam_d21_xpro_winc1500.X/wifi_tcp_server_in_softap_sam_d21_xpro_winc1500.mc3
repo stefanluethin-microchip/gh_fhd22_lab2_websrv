@@ -703,7 +703,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;appWincExampleConf&gt;
   &lt;appWincExampleConf dnOrder=&quot;0&quot; id=&quot;APP_WIFI_SSID&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;Webserver&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;WebserverSL&quot;/&gt;
     &lt;/Values&gt;
   &lt;/appWincExampleConf&gt;
 &lt;/appWincExampleConf&gt;
@@ -7874,7 +7874,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\definitions.h</file>
-         <hash>2293d683fcdd28e7fa5b8b5a8d8fb827e8f336da82708a86eb3f05e059f3e1db</hash>
+         <hash>2418ae6359480a8e6e0d4b123e4faa5d302e09cb4e7d340e53814becf2aac0ab</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD21J18A_DFP\component\hmatrixb.h</file>
@@ -8010,7 +8010,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\initialization.c</file>
-         <hash>dcaedb0b0a9053751697c1e1920500e23b132c3bbf4c64adf9336f44dfa689bd</hash>
+         <hash>a3467c4107ba81f0232745844a51c72ca2ff8c6a19ffc30402cd0e089b416247</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\system\console\src\sys_console_uart_definitions.h</file>
@@ -8618,7 +8618,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\example_conf.h</file>
-         <hash>9009d1d9e7386e36c7e9bb88d2ac89c77af410ff072bc65d6427453519e33c79</hash>
+         <hash>9cd8af259fe94b81b01d460a35c0bf14b582c82153966957a512a3010a8b7302</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD21J18A_DFP\component\dmac.h</file>
@@ -8742,7 +8742,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\configuration.h</file>
-         <hash>2b72023ae44698d7782a55f0e124fb482335eba51c2b9f89fde3eb7f689d1b47</hash>
+         <hash>36508e596ac5553b7f34d73437a12a56fdcc8a05587162b47fd98e1b880ce8e9</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro_winc1500\driver\winc\wdrv_winc_powersave.c</file>

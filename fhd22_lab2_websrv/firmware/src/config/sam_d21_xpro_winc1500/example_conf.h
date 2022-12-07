@@ -44,7 +44,7 @@
 #ifndef _EXAMPLE_CONF_H
 #define _EXAMPLE_CONF_H
 
-#define WLAN_SSID               "Webserver"
+#define WLAN_SSID               "WebserverSL"
 #define WLAN_CHANNEL            1
 
 #define WLAN_AUTH_OPEN
